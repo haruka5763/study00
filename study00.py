@@ -32,7 +32,7 @@ for n in name:
 # 05
 # 01
 def study01(a, b):
-    return (a + "と" + b + "は仲間です")
+    return (f'{a}と{b}は仲間です')
 name1 = "ねずこ"
 name2 = "ぜんいつ"
 p = study01(name1, name2)
@@ -42,9 +42,9 @@ print(p)
 def study02(a, b):
 
     if b == "むざん":
-        return (b + "は仲間ではありません") 
+        return (f'{b}は仲間ではありません') 
     else:
-        return(a + "は仲間です")
+        return(f'{a}は仲間です')
 
 name1 = "ねずこ"
 name2 = "むざん"
@@ -72,9 +72,9 @@ print(p)
 # 06
 def study06(hikisuu):
     if (hikisuu in name):
-        return(hikisuu + "はリストに存在します")
+        return(f'{hikisuu}はリストに存在します')
     else:
-        return(hikisuu + "はリストに存在しません")
+        return(f'{hikisuu}はリストに存在しません')
 
 
 sample1 = "鬼滅の刃"
